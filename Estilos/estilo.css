@@ -1,0 +1,76 @@
+@charset "UTF-8";
+/*Global*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    background-color: #f0f0f0;
+}
+h1 {
+    text-align: center;
+    font-size: 26px;
+}
+h3{
+    font-size: 17px;
+    padding: 7px 0px;
+    text-align: center;
+}
+h4 {
+    font-size: 14px;
+    text-align: left;
+    padding-bottom: 25px;
+    padding-left: 7px;
+}
+p {
+    font-size: 14px;
+    text-align: left;
+    padding-bottom: 30px;
+    padding-left: 7px;
+}
+span {
+    text-align: left;
+    padding-bottom: 2px;
+    padding-right: 200px;
+    padding-left: 7px;
+}
+.carrinho {
+    width: 24px;
+    text-align: right;
+    cursor: pointer;
+}
+.topo {
+    width: 100%;
+    padding: 15px 0px;
+    background-color: #ffffff;
+}
+.topo span {
+    font-size: 18px;
+    color: #3cbd87;
+}
+.contanier {
+    max-width: 1024px;
+    margin: 10px auto;
+    padding-top: 47px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.foto {
+    flex: auto;
+}
+.conteudo {
+    width: 303px;
+    flex: auto;
+    border-top: 1px solid #c9c4c4;
+    border-radius: 2%;
+    background-color: #f8f8ff;
+}
+img {
+    width: 300px;
+    border-radius: 1.5%;
+}
